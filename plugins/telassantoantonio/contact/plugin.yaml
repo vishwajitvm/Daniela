@@ -1,0 +1,6 @@
+plugin:
+    name: Contact
+    description: Contato
+    author: 'Telas Santo Antonio'
+    icon: oc-icon-mail-forward
+    homepage: ''

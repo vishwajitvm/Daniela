@@ -1,0 +1,51 @@
+[builderList]
+modelClass = "TelasSantoAntonio\Product\Models\Product"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "produtos-agropecuarios"
+detailsKeyColumn = "slug"
+detailsUrlParameter = "slug"
+pageNumber = "{{ :page }}"
+==
+{% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+{% component 'siteSearchInclude' %}
+
+<div class="prod">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="prod-title">{{ record.name }}</p>
+                <div class="prod-text">
+                    <p>Revenda de produtos agropecuários Gerdau.</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <!-- {{ record.table_product|raw }} -->
+
+                {% for field in record.custom_fields %}
+
+                    {% if field.field_selector == 'field_type1' %}
+                        {% partial 'product-single/custom-fields/field_type1' field=field %}
+                    {% endif %}
+        
+                {% endfor %}
+            </div>
+            <div class="col-4 prodtable-imgcontent d-none d-md-flex">
+                <img class="img-fluid prodtable-img" src="{{ 'assets/images/products/prodtable1.jpg'|theme }}" alt="Produto 1">
+                <img class="img-fluid prodtable-img" src="{{ 'assets/images/products/prodtable2.jpg'|theme }}" alt="Produto 1">
+                <img class="img-fluid prodtable-img" src="{{ 'assets/images/products/prodtable3.jpg'|theme }}" alt="Produto 1">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 prod-buttoncontent text-center py-5 my-5">
+    <a class="prod-buttonbudget" href="{{ 'budget'|page }}">Peça o seu orçamento</a>
+</div>

@@ -1,0 +1,17 @@
+<div class="prod-right {{ record.box_color }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-right">
+                <p class="prod-title">{{ record.name }}</p>
+            </div>
+            <div class="col-lg-6 order-2 order-lg-2 prod-text">
+                {{ record.description|raw }}
+            </div>
+            <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-0 order-1 prod-imgcontent">
+                <div class="prod-item">
+                    <img class="prod-img img-fluid" src="{{ record.photo.path }}" alt="Produto" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

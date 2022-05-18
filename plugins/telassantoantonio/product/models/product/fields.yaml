@@ -1,0 +1,292 @@
+fields:
+    name:
+        label: 'Nome do produto'
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: right
+        preset:
+            field: name
+            type: slug
+        type: text
+    description:
+        label: 'Descrição do produto'
+        size: large
+        span: auto
+        type: richeditor
+    photo:
+        label: Foto
+        mode: image
+        imageWidth: '400'
+        imageHeight: '400'
+        useCaption: true
+        thumbOptions:
+            mode: auto
+            extension: auto
+        span: right
+        type: fileupload
+    box_color:
+        label: 'Caixa de cor'
+        options:
+            prod-yellow: Amarelo
+            prod-gray: Cinza
+            prod-blue: Azul
+        span: left
+        type: dropdown
+    type:
+        label: Indentação
+        options:
+            - Direita
+            - Esquerda
+        span: left
+        type: dropdown
+    custom_fields:
+        label: 'Bloco customizado'
+        prompt: 'Adicionar novo bloco customizado'
+        span: full
+        type: repeater
+        form:
+            fields:
+                field_selector:
+                    label: 'Selecione um tipo'
+                    options:
+                        empty: 'Selecione um tipo'
+                        field_type1: 'Tipo 1 ( Título e Descrição com metade da largura ou largura completa do bloco )'
+                        field_type2: 'Tipo 2 ( Título, Descrição ocupando maior parte do bloco e 1 Imagem pequena à direita )'
+                        field_type3: 'Tipo 3 ( Título e 1 Imagem ocupando toda a largura do bloco )'
+                        field_type4: 'Tipo 4 ( 2 Imagens com seus respectivos títulos )'
+                        field_type5: 'Tipo 5 ( 3 Imagens com seus respectivos títulos )'
+                        field_type6: 'Tipo 6 ( Título, 1 Imagem e 1 Tabela )'
+                    span: full
+                    type: dropdown
+                title_type1:
+                    label: Título
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type1]'
+                    type: text
+                description_size:
+                    label: 'Largura e posição do campo descrição'
+                    options:
+                        col-md-6: 'Esquerda (Metade)'
+                        'col-md-6 offset-md-6 text-right': 'Direita (Metade)'
+                        col-12: Completa
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type1]'
+                    type: dropdown
+                description_type1:
+                    label: Descrição
+                    size: large
+                    span: full
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type1]'
+                    type: richeditor
+                title_type2:
+                    label: Título
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type2]'
+                    type: text
+                description_type2:
+                    label: Descrição
+                    size: large
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type2]'
+                    type: richeditor
+                image_type2:
+                    label: Imagem
+                    mode: image
+                    imageWidth: '350'
+                    imageHeight: '300'
+                    span: right
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type2]'
+                    type: mediafinder
+                title_type3:
+                    label: Título
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type3]'
+                    type: text
+                image_type3:
+                    label: Imagem
+                    mode: image
+                    span: full
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type3]'
+                    type: mediafinder
+                title_type4_left:
+                    label: 'Título 1'
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type4]'
+                    type: text
+                    comment: 'Título da imagem à esquerda'
+                title_type4_right:
+                    label: 'Título 2'
+                    span: right
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type4]'
+                    type: text
+                    comment: 'Título da imagem à direita'
+                image_type4_left:
+                    label: 'Imagem 1'
+                    mode: image
+                    imageWidth: '350'
+                    imageHeight: '300'
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type4]'
+                    type: mediafinder
+                    comment: 'Imagem à esquerda'
+                image_type4_right:
+                    label: 'Imagem 2'
+                    mode: image
+                    imageWidth: '350'
+                    imageHeight: '300'
+                    span: right
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type4]'
+                    type: mediafinder
+                    comment: 'Imagem à direita'
+                title_type5_left:
+                    label: 'Título 1'
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type5]'
+                    type: text
+                image_type5_left:
+                    label: 'Imagem 1'
+                    mode: image
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type5]'
+                    type: mediafinder
+                title_type5_center:
+                    label: 'Título 2'
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type5]'
+                    type: text
+                image_type5_center:
+                    label: 'Imagem 2'
+                    mode: image
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type5]'
+                    type: mediafinder
+                title_type5_right:
+                    label: 'Título 3'
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type5]'
+                    type: text
+                image_type5_right:
+                    label: 'Imagem 3'
+                    mode: image
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type5]'
+                    type: mediafinder
+                title_type6:
+                    label: Título
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type6]'
+                    type: text
+                image_type6:
+                    label: Imagem
+                    mode: image
+                    span: left
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type6]'
+                    type: mediafinder
+                table_type6:
+                    label: Tabela
+                    size: giant
+                    span: right
+                    trigger:
+                        action: show
+                        field: field_selector
+                        condition: 'value[field_type6]'
+                    type: richeditor
+    custom_gallery:
+        label: Galeria
+        prompt: 'Adicionar novo bloco de galeria'
+        maxItems: '1'
+        span: full
+        type: repeater
+        comment: 'Bloco dinâmico de galeria de imagens'
+        form:
+            fields:
+                title:
+                    label: Título
+                    span: left
+                    type: text
+                description:
+                    label: Descrição
+                    size: small
+                    span: left
+                    type: richeditor
+                field_gallery:
+                    label: Galeria
+                    prompt: 'Adicionar novas imagens'
+                    span: full
+                    type: repeater
+                    form:
+                        fields:
+                            gallery_image:
+                                label: Imagem
+                                mode: image
+                                imageWidth: '100'
+                                imageHeight: '100'
+                                span: left
+                                type: mediafinder
+                            featured_image:
+                                label: 'Imagem Destaque'
+                                span: right
+                                type: switch
+                                comment: 'Ao ativar, a imagem aparecerá na listagem do bloco (máx.6)'

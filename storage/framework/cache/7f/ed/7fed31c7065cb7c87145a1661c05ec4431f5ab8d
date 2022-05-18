@@ -1,0 +1,25 @@
+1652374118a:1:{s:44:"product-single/custom-fields/field_type6.htm";a:5:{s:8:"fileName";s:44:"product-single/custom-fields/field_type6.htm";s:7:"content";s:450:"<!-- Tipo 6 ( Título, 1 Imagem e 1 Tabela ) -->
+
+<div class="col-12 prodsingle-type6">
+    <h2>{{ field.title_type6 }}</h2>
+    <div class="row">
+        <div class="col-10 offset-1 col-md-5 offset-md-0 mb-5 mb-md-0">
+            <img src="{{ field.image_type6|media }}" class="img-fluid">
+        </div>
+        <div class="col-10 offset-1 col-md-7 offset-md-0 mt-5 mt-md-0">
+            {{ field.table_type6|raw }}
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1647284215;s:6:"markup";s:450:"<!-- Tipo 6 ( Título, 1 Imagem e 1 Tabela ) -->
+
+<div class="col-12 prodsingle-type6">
+    <h2>{{ field.title_type6 }}</h2>
+    <div class="row">
+        <div class="col-10 offset-1 col-md-5 offset-md-0 mb-5 mb-md-0">
+            <img src="{{ field.image_type6|media }}" class="img-fluid">
+        </div>
+        <div class="col-10 offset-1 col-md-7 offset-md-0 mt-5 mt-md-0">
+            {{ field.table_type6|raw }}
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

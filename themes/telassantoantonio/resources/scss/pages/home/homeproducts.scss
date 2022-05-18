@@ -1,0 +1,217 @@
+.homeprod {
+    
+    height: auto;
+    padding: 100px 0;
+    @extend %flexcenter;
+    position: relative;
+    background-color: $gray-light;
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+        width: 80%;
+        height: 600px;
+        background-color: $blue;
+        opacity: 0.3;
+        display: none;
+        top: 300px;
+    }
+
+    &-paddingcontent {
+        padding: 0 45px;
+    }
+
+    // &-boxcontent {
+
+    // }
+
+    &-title {
+        font-size: $big;
+        color: $black-text;
+        font-weight: $bold;
+        margin-bottom: 30px;
+    }
+
+    &-image {
+        transition: 0.3s;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0;
+        position: relative;
+    }
+
+    &-box {
+        height: 180px;
+        width: 100%;
+        margin: 20px;
+        transition: 0.3s;
+        position: relative;
+        overflow: hidden;
+        @extend %flexcenter;
+        opacity: 0;
+        
+        &:nth-of-type(1){
+            .homeprod-image {
+                background-image: url('/themes/telassantoantonio/assets/images/home/produto1.jpg');
+            }
+        }
+        &:nth-of-type(2){
+            .homeprod-image {
+                background-image: url('/themes/telassantoantonio/assets/images/home/produto2.jpg');
+            }
+        }
+        &:nth-of-type(3){
+            .homeprod-image {
+                background-image: url('/themes/telassantoantonio/assets/images/home/produto3.jpg');
+            }
+        }
+        &:nth-of-type(4){
+            .homeprod-image {
+                background-image: url('/themes/telassantoantonio/assets/images/home/produto4.jpg');
+            }
+        }
+        &:nth-of-type(5){
+            .homeprod-image {
+                background-image: url('/themes/telassantoantonio/assets/images/home/produto5.jpg');
+            }
+        }
+        &:nth-of-type(6){
+            .homeprod-image {
+                background-image: url('/themes/telassantoantonio/assets/images/home/produto6.jpg');
+            }
+        }
+        &:nth-of-type(7){
+            .homeprod-image {
+                background-image: url('/themes/telassantoantonio/assets/images/home/produto7.jpg');
+            }
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.6;
+            top: 0;
+            left: 0;
+            transition: 0.3s;
+            z-index: 1;
+        }
+
+        &:focus {
+            text-decoration: none;
+        }
+
+        &:hover {
+
+            text-decoration: none;
+
+            &::before {
+                opacity: 0;
+                transition: 0.3s;
+            }
+
+            .homeprod-image {
+                transition: 0.3s;
+                transform: scale(1.2);
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-color: $yellow;
+                    opacity: 0.7;
+                    top: 0;
+                    left: 0;
+                    transition: 0.3s;
+                    z-index: 2;
+                }
+
+            }
+        }
+    }
+
+    &-name {
+        font-size: 16px;
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: $bold;
+        position: absolute;
+        z-index: 1;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: $phone-sm){
+    .homeprod {
+        &-box {
+            height: 180px;
+            width: 180px;
+        }
+    }
+}
+@media screen and (min-width: $tablet-md){
+
+    .homeprod {
+    
+        &::before {
+            display: block;
+            top: 265px;
+            left: 245px;
+        }
+    }
+
+}
+
+@media screen and (min-width: $desktop-lg){
+    .homeprod {
+
+        min-height: 100vh;
+        min-height: 800px;
+        padding: auto;
+
+        &::before {
+            height: 400px;
+            top: 300px;
+            left: 190px;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-xl){
+    .homeprod {
+
+        &::before {
+            height: 450px;
+            bottom: 50px;
+        }
+
+        &-box {
+            height: 225px;
+            width: 225px;
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-xxl){
+    .homeprod {
+
+        &::before {
+            height: 600px;
+            bottom: 50px;
+        }
+
+        &-box {
+            height: 325px;
+            width: 325px;
+        }
+    }
+}

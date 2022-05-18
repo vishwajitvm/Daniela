@@ -1,0 +1,15 @@
+<!-- Tipo 2 ( Título, Descrição ocupando maior parte do bloco e 1 Imagem pequena à direita ) -->
+
+<div class="col-12 prodsingle-submargin">
+    <div class="row">
+        <div class="col-md-9">
+            <h2 class="prod-subtitle">{{ field.title_type2 }}</h2>
+            <div class="prod-text">
+                {{ field.description_type2|raw }}
+            </div>
+        </div>
+        <div class="col-md-3">
+            <img src="{{ field.image_type2|media }}" class="img-fluid">
+        </div>
+    </div>
+</div>

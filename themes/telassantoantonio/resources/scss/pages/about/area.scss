@@ -1,0 +1,36 @@
+.aboutarea {
+
+    padding: 200px 0;
+    background-color: $gray-light;
+
+    &-title {
+        @extend %pagetitle;
+        margin-bottom: 30px;
+    }
+
+    &-text {
+        @extend %text;
+        width: 80%;
+    } 
+    
+    &-img {
+        display: block;
+        margin: 0 0 45px;
+    }
+
+    &-textcontent {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: $desktop-lg) {
+    .aboutarea {
+        &-img {
+            margin: 0 auto;
+        }
+    }
+}

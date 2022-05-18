@@ -1,0 +1,77 @@
+[searchInput]
+useAutoComplete = 0
+autoCompleteResultCount = 5
+showProviderBadge = 1
+searchPage = "search.htm"
+==
+<div class="menu">
+    <div class="container">
+        <div class="row menu-content">
+            <div class="col-10 col-md-5 col-lg-3 mb-5 mb-md-0 order-1">
+                <a href="{{ 'home'|page }}">
+                    <img class="menu-logo img-fluid" src="{{ 'assets/images/logo.svg'|theme }}" alt="Logo">
+                </a>
+            </div>
+            <div class="col-md-4 offset-md-2 col-lg-3 offset-lg-5 order-3 order-md-2">
+                <form action="{{ url('/search?q=') }}" method="get">
+                    <label for="q" class="menu-box">
+                        <input name="q" type="text" id="q" placeholder="&nbsp;" value="" autocomplete="off" autofocus="">
+                        <span class="menu-label">Pesquisar</span>
+                        <span class="menu-border"></span>
+
+                        <button type="submit" class="menu-search">
+                            <img class="menu-iconsearch" src="{{ 'assets/images/menu/search.svg'|theme }}" alt="Procurar">
+                        </button>
+                    </label>
+                </form>
+            </div>
+            <div class="col-2 col-md-1 menu-iconcontainer order-2 order-md-3">
+                <button class="menu-icon"></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 offset-md-1 menu-linkcontent">
+                <a class="menu-link" href="{{ 'product'|page }}">Produtos</a>
+                <a class="menu-link" href="{{ 'budget'|page }}">Orçamento</a>
+                <a class="menu-link" href="{{ 'about'|page }}">Quem somos</a>
+                <a class="menu-link" href="{{ 'contact'|page }}">Contato</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid menu-bottom">
+        <div class="container">
+            <div class="row position-relative">
+
+                <div class="col-md-3 offset-md-9 col-lg-2 offset-lg-10 menu-socialcontent">
+                    <a class="menu-socialink" href="javascript:;">
+                        <img src="{{ 'assets/images/facebook-white.svg'|theme }}" alt="Facebook">
+                    </a>
+                    <a class="menu-socialink" href="javascript:;">
+                        <img src="{{ 'assets/images/linkedin-white.svg'|theme }}" alt="LinkedIn">
+                    </a>
+                    <a class="menu-socialink" href="javascript:;">
+                        <img src="{{ 'assets/images/instagram-white.svg'|theme }}" alt="Instagram">
+                    </a>
+                </div>
+
+                <div class="col-md-10 offset-md-2 col-lg-7 offset-lg-5 col-xl-6 offset-xl-6 col-xxl-5 offset-xxl-7 menu-coltext">
+                    <div class="menu-textcontent">
+                        <p class="menu-text">Endereço</p>
+                        <p class="menu-text">
+                            Rua Maria do Bonsucesso Proença de Moraes, 202<br>
+                            Vila Progresso - CEP: 18.214-570<br>
+                            Itapetininga-SP
+                        </p>
+                    </div>
+                    <div class="menu-textcontent">
+                        <p class="menu-text">Telefones</p>
+                        <p class="menu-text">
+                            15 3273-4079<br>
+                            15 3273-2130
+                        </p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>

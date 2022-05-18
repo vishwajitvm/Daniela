@@ -1,0 +1,17 @@
+1652421709a:1:{s:11:"product.htm";a:10:{s:8:"fileName";s:11:"product.htm";s:7:"content";s:387:"title = "Produtos"
+url = "/produtos"
+layout = "default"
+is_hidden = 0
+
+[builderList]
+modelClass = "TelasSantoAntonio\Product\Models\Product"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "product-single"
+detailsKeyColumn = "slug"
+detailsUrlParameter = "slug"
+pageNumber = "{{ :page }}"
+==
+{% partial 'products/item' %}";s:5:"mtime";i:1647284215;s:6:"markup";s:29:"{% partial 'products/item' %}";s:4:"code";N;s:5:"title";s:8:"Produtos";s:3:"url";s:9:"/produtos";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"builderList";a:9:{s:10:"modelClass";s:40:"TelasSantoAntonio\Product\Models\Product";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:4:"name";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:14:"product-single";s:16:"detailsKeyColumn";s:4:"slug";s:19:"detailsUrlParameter";s:4:"slug";s:10:"pageNumber";s:11:"{{ :page }}";}}}

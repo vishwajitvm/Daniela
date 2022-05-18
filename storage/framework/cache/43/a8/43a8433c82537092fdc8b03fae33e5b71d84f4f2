@@ -1,0 +1,49 @@
+1652421709a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:991:"<nav class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-md-3">
+                <a href="{{ 'home'|page }}">
+                    <img class="header-logo img-fluid" src="{{ 'assets/images/logo.svg'|theme }}" alt="Telas Santo Antonio">
+                </a>
+            </div>
+            <div class="col-md-8 header-linkcontainer d-none d-md-flex">
+                <a class="header-link" href="{{ 'product'|page }}">Produtos</a>
+            </div>
+            <div class="col-2 col-md-1 header-iconcontainer">
+                <button class="header-burger-btn" data-action="openBurgerMenu">
+                    <span 
+                    {% if this.page.id == 'home' %}
+                        class="header-icon-home"
+                    {% else %}
+                        class="header-icon-internal"
+                    {% endif %}>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>";s:5:"mtime";i:1647284215;s:6:"markup";s:991:"<nav class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-md-3">
+                <a href="{{ 'home'|page }}">
+                    <img class="header-logo img-fluid" src="{{ 'assets/images/logo.svg'|theme }}" alt="Telas Santo Antonio">
+                </a>
+            </div>
+            <div class="col-md-8 header-linkcontainer d-none d-md-flex">
+                <a class="header-link" href="{{ 'product'|page }}">Produtos</a>
+            </div>
+            <div class="col-2 col-md-1 header-iconcontainer">
+                <button class="header-burger-btn" data-action="openBurgerMenu">
+                    <span 
+                    {% if this.page.id == 'home' %}
+                        class="header-icon-home"
+                    {% else %}
+                        class="header-icon-internal"
+                    {% endif %}>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>";s:4:"code";N;}}

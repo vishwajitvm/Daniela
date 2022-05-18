@@ -1,0 +1,25 @@
+.aboutdna {
+
+    background-image: url('/themes/telassantoantonio/assets/images/about/dna.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 120px 0;
+    @extend %flexcenter;
+
+    &-title {
+        font-size: $title;
+        color: $white;
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: $bold;
+    }
+
+    &-text {
+        font-size: $normal;
+        color: $white;
+        line-height: 40px;
+    }
+
+}

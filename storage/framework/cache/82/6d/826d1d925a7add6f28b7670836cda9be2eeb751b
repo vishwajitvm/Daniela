@@ -1,0 +1,89 @@
+1652872567a:1:{s:15:"home/banner.htm";a:5:{s:8:"fileName";s:15:"home/banner.htm";s:7:"content";s:2552:"<div class="banner">
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+
+            <div class="banner-item">
+                <div class="row banner-carousel">
+                    <div data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft" class="col-7 banner-textindex banner-fadeLeft">
+                        <div class="banner-textcontent">
+                            <h2 class="banner-title">
+                                No campo ou na cidade nossos produtos garantem a sua tranquilidade.
+                            </h2>
+                            <h3 class="banner-subtitle">
+                                Estamos sempre inovando para oferecer soluções inteligentes para as mais diversas necessidades, confeccionamos telas sob medida de acordo com o seu projeto.
+                            </h3>
+                            <a class="banner-button" href="{{ 'budget'|page }}">Peça o seu orçamento</a>
+                        </div>
+                    </div>
+                    <div data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight" class="col-5 banner-fadeRight">
+                        <img class="banner-img img-fluid" src="{{ 'assets/images/home/banner1.jpg'|theme }}" alt="Banner">
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-item">
+                <div class="row banner-carousel">
+                    <div data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft" class="col-7 banner-textindex">
+                        <div class="banner-textcontent">
+                            <h2 class="banner-title">
+                                Condições especiais para o seu negócio.
+                            </h2>
+                            <h3 class="banner-subtitle">
+                                Oferecemos produtos com durabilidade e qualidade comprovada que podem ser utilizados para as mais diversas aplicações.
+                            </h3>
+                            <a class="banner-button" href="{{ 'budget'|page }}">Peça o seu orçamento</a>
+                        </div>
+                    </div>
+                    <div data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight" class="col-5">
+                        <img class="banner-img img-fluid" src="{{ 'assets/images/home/banner2-sm.png'|theme }}" alt="Banner">
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1652422544;s:6:"markup";s:2552:"<div class="banner">
+    <div class="container">
+        <div class="owl-carousel owl-theme">
+
+            <div class="banner-item">
+                <div class="row banner-carousel">
+                    <div data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft" class="col-7 banner-textindex banner-fadeLeft">
+                        <div class="banner-textcontent">
+                            <h2 class="banner-title">
+                                No campo ou na cidade nossos produtos garantem a sua tranquilidade.
+                            </h2>
+                            <h3 class="banner-subtitle">
+                                Estamos sempre inovando para oferecer soluções inteligentes para as mais diversas necessidades, confeccionamos telas sob medida de acordo com o seu projeto.
+                            </h3>
+                            <a class="banner-button" href="{{ 'budget'|page }}">Peça o seu orçamento</a>
+                        </div>
+                    </div>
+                    <div data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight" class="col-5 banner-fadeRight">
+                        <img class="banner-img img-fluid" src="{{ 'assets/images/home/banner1.jpg'|theme }}" alt="Banner">
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-item">
+                <div class="row banner-carousel">
+                    <div data-animation-in="fadeInLeft" data-animation-out="animate-out fadeOutLeft" class="col-7 banner-textindex">
+                        <div class="banner-textcontent">
+                            <h2 class="banner-title">
+                                Condições especiais para o seu negócio.
+                            </h2>
+                            <h3 class="banner-subtitle">
+                                Oferecemos produtos com durabilidade e qualidade comprovada que podem ser utilizados para as mais diversas aplicações.
+                            </h3>
+                            <a class="banner-button" href="{{ 'budget'|page }}">Peça o seu orçamento</a>
+                        </div>
+                    </div>
+                    <div data-animation-in="fadeInRight" data-animation-out="animate-out fadeOutRight" class="col-5">
+                        <img class="banner-img img-fluid" src="{{ 'assets/images/home/banner2-sm.png'|theme }}" alt="Banner">
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

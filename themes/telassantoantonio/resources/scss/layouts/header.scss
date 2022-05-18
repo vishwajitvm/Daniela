@@ -1,0 +1,85 @@
+.header {
+    padding-top: 30px;
+
+    &-linkcontainer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &-link {
+        color: $black;
+        font-size: 16px;
+        text-decoration: none;
+
+        &:hover, &:focus {
+            color: $black;
+            text-decoration: none;
+        }
+    }
+
+    &-iconcontainer {
+        text-align: right;
+    }
+
+    &-burger-btn {
+        top: 0px;
+        right: 25px;
+        margin: 5px;
+        width: 30px;
+        height: 30px;
+        border: none;
+        position: absolute;
+        background: transparent;
+
+        &:active {
+            border: none;
+            background: none;
+        }
+    }
+
+    &-icon-home {
+        @extend %burgermenu;
+        background-color: $white;
+
+        &::before, &::after {
+            background-color: $white;
+        }
+    }
+
+    &-icon-internal {
+        @extend %burgermenu;
+    }
+
+}
+
+@media screen and (min-width: $tablet-md){
+
+    .header {
+
+        &-burger-btn {
+            top: -7px;
+            right: 0px;
+        }
+
+        &-icon-home {
+            
+            background-color: $black;
+
+            &::before, &::after {
+                background-color: $black;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-lg){
+
+    .header {
+
+        &-burger-btn {
+            top: 0px;
+            right: 0px;
+        }
+    }
+}

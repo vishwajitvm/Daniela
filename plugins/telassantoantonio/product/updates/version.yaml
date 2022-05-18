@@ -1,0 +1,152 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table telassantoantonio_product_'
+    - builder_table_create_telassantoantonio_product_.php
+1.0.3:
+    - 'Created table telassantoantonio_product_'
+    - builder_table_create_telassantoantonio_product__2.php
+1.0.4:
+    - 'Updated table telassantoantonio_product_'
+    - builder_table_update_telassantoantonio_product_.php
+1.0.5:
+    - 'Updated table telassantoantonio_product_'
+    - builder_table_update_telassantoantonio_product__2.php
+1.0.6:
+    - 'Updated table telassantoantonio_product_'
+    - builder_table_update_telassantoantonio_product__3.php
+1.0.7:
+    - 'Updated table telassantoantonio_product_'
+    - builder_table_update_telassantoantonio_product__4.php
+1.0.8:
+    - 'Updated table telassantoantonio_product_'
+    - builder_table_update_telassantoantonio_product__5.php
+1.0.9:
+    - 'Updated table telassantoantonio_product_'
+    - builder_table_update_telassantoantonio_product__6.php
+1.0.10:
+    - 'Created table telassantoantonio_product_subtype'
+    - builder_table_create_telassantoantonio_product_subtype.php
+1.0.11:
+    - 'Updated table telassantoantonio_product_subtype'
+    - builder_table_update_telassantoantonio_product_subtype.php
+1.0.12:
+    - 'Updated table telassantoantonio_product_'
+    - builder_table_update_telassantoantonio_product_product.php
+1.0.13:
+    - 'Updated table telassantoantonio_product_product'
+    - builder_table_update_telassantoantonio_product_products.php
+1.0.14:
+    - 'Updated table telassantoantonio_product_subtype'
+    - builder_table_update_telassantoantonio_product_subtypes.php
+1.0.15:
+    - 'Updated table telassantoantonio_product_subtypes'
+    - builder_table_update_telassantoantonio_product_subtypes_2.php
+1.0.16:
+    - 'Updated table telassantoantonio_product_subtypes'
+    - builder_table_update_telassantoantonio_product_subtypes_3.php
+1.0.17:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_2.php
+1.0.18:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_3.php
+1.0.19:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_4.php
+1.0.20:
+    - 'Drop table telassantoantonio_product_products_subtypes'
+    - builder_table_delete_telassantoantonio_product_products_subtypes.php
+1.0.21:
+    - 'Drop table telassantoantonio_product_prod_subtypes'
+    - builder_table_delete_telassantoantonio_product_prod_subtypes.php
+1.0.22:
+    - 'Updated table telassantoantonio_product_relations'
+    - builder_table_update_telassantoantonio_product_products_subtypes.php
+1.0.23:
+    - 'Drop table telassantoantonio_product_products_subtypes'
+    - builder_table_delete_telassantoantonio_product_products_subtypes_2.php
+1.0.24:
+    - 'Created table telassantoantonio_product_relation'
+    - builder_table_create_telassantoantonio_product_relation.php
+1.0.25:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_5.php
+1.0.26:
+    - 'Updated table telassantoantonio_product_subtypes'
+    - builder_table_update_telassantoantonio_product_subtypes_4.php
+1.0.27:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_6.php
+1.0.28:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_7.php
+1.0.29:
+    - 'Drop table telassantoantonio_product_relation'
+    - builder_table_delete_telassantoantonio_product_relation.php
+1.0.30:
+    - 'Drop table telassantoantonio_product_subtypes'
+    - builder_table_delete_telassantoantonio_product_subtypes.php
+1.0.31:
+    - 'Created table telassantoantonio_product_subtypes'
+    - builder_table_create_telassantoantonio_product_subtypes.php
+1.0.32:
+    - 'Updated table telassantoantonio_product_subtypes'
+    - builder_table_update_telassantoantonio_product_subtypes_5.php
+1.0.33:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_8.php
+1.0.34:
+    - 'Updated table telassantoantonio_product_subtypes'
+    - builder_table_update_telassantoantonio_product_subtypes_6.php
+1.0.35:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_9.php
+1.0.36:
+    - 'Updated table telassantoantonio_product_subtypes'
+    - builder_table_update_telassantoantonio_product_subtypes_7.php
+1.0.37:
+    - 'Updated table telassantoantonio_product_subtypes'
+    - builder_table_update_telassantoantonio_product_subtypes_8.php
+1.0.38:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_10.php
+1.0.39:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_11.php
+1.0.40:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_12.php
+1.0.41:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_13.php
+1.0.42:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_14.php
+1.0.43:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_15.php
+1.0.44:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_16.php
+1.0.45:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_17.php
+1.0.46:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_18.php
+1.0.47:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_19.php
+1.0.48:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_20.php
+1.0.49:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_21.php
+1.0.50:
+    - 'Updated table telassantoantonio_product_products'
+    - builder_table_update_telassantoantonio_product_products_22.php
+1.0.51:
+    - 'Drop table telassantoantonio_product_subtypes'
+    - builder_table_delete_telassantoantonio_product_subtypes_2.php

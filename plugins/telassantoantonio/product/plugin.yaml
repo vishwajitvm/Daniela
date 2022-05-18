@@ -1,0 +1,20 @@
+plugin:
+    name: 'telassantoantonio.product::lang.plugin.name'
+    description: 'telassantoantonio.product::lang.plugin.description'
+    author: 'Telas Santo Antonio'
+    icon: oc-icon-shopping-cart
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Produtos
+        url: telassantoantonio/product/product
+        icon: icon-shopping-cart
+        sideMenu:
+            side-menu-item:
+                label: Produtos
+                url: telassantoantonio/product/product
+                icon: icon-shopping-cart
+            subtypes:
+                label: Subtipos
+                url: telassantoantonio/product/subtype
+                icon: icon-sitemap

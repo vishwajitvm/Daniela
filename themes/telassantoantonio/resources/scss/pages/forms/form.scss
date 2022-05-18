@@ -1,0 +1,97 @@
+.form {
+
+    padding: 120px 0;
+
+    &-success {
+        padding: 200px 0;
+    }
+
+    &-title {
+        @extend %pagetitle;
+        text-align: center;
+    }
+    
+    &-subtitle {
+        padding: 10px;
+        font-size: $normal;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &-box {
+        position: relative;
+        margin: 15px auto;
+        width: 100%;
+        line-height: 0;
+    }
+    &-label {
+        position: absolute;
+        top: 16px;
+        left: 0;
+        font-size: 16px;
+        color: #9098A9;
+        font-weight: $normal;
+        transform-origin: 0 0;
+        transition: all .2s ease;
+    }
+    &-border {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: $blue;
+        transform: scaleX(0);
+        transform-origin: 0 0;
+        transition: all .15s ease;
+    }
+    input, textarea {
+        -webkit-appearance: none;
+        width: 100%;
+        border: 0;
+        font-family: inherit;
+        padding: 12px 0;
+        height: 48px;
+        font-size: 16px;
+        font-weight: $light;
+        border-bottom: 2px solid #C8CCD4;
+        background: none;
+        border-radius: 0;
+        color: #223254;
+        transition: all .15s ease;
+        &:hover{
+            background: rgba(#223254,.03);
+        }
+    
+        &:not(:placeholder-shown) + span{
+            color: #5A667F;
+            transform: translateY(-26px) scale(.75);
+        }
+    
+        &:focus {
+            background: none;
+            outline: none;
+            +span {
+                color: $blue;
+                transform: translateY(-26px) scale(.75);
+                +.form-border{
+                    transform: scaleX(1);
+                }
+            }
+        }
+    }
+    textarea {
+        height: 200px;
+        resize: none;
+        line-height: 1.4;
+    }
+
+    &-button {
+        @extend %button;
+        display: inline-block;
+        width: 100%;
+        border: none;
+        margin-top: 60px;
+    }
+
+}

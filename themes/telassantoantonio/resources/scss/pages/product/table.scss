@@ -1,0 +1,92 @@
+.prodtable {
+
+    &-table {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    &-gray, &-lightgray {
+        position: relative;
+    }
+
+    &-blue {
+        background-color: $blue;
+    }
+
+    &-graydarker {
+        background-color: $gray-darker
+    }
+
+    &-gray {
+        background-color: $gray;
+    }
+
+    &-lightgray {
+        background-color: $gray-light;
+    }
+
+    &-cell {
+        padding: 5px;
+        font-size: 10px;
+        text-align: center;
+        color: $black-text;
+        font-weight: $bold;
+        border: 2px solid $white;
+
+        &:nth-of-type(1){
+            padding-left: 15px;
+            text-align: left;
+        }
+    }
+
+    &-head, &-subhead {
+        color: $white;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 10px;
+        padding: 5px;
+        border: 2px solid $white;
+    }
+
+    &-imgcontent {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &-img {
+        max-width: 70%;
+    }
+}
+
+@media screen and (min-width: $phone-sm){
+    .prodtable {
+        
+    }
+}
+@media screen and (min-width: $tablet-md){
+    .prodtable {
+        &-cell {
+            font-size: 16px;
+        }
+        &-head, &-subhead {
+            font-size: $normal;
+        }
+    }
+}
+@media screen and (min-width: $desktop-lg){
+    .prodtable {
+
+    }
+}
+@media screen and (min-width: $desktop-xl){
+    .prodtable {
+
+    }
+}
+@media screen and (min-width: $desktop-xxl){
+    .prodtable {
+
+    }
+}

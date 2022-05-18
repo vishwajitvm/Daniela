@@ -1,0 +1,199 @@
+%btnproduct {
+    width: 240px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.prod {
+    margin: 50px 0 0;
+
+    &-area {
+        margin-bottom: 90px;
+    }
+
+    &-pagename {
+        font-size: $big;
+        font-weight: $bold;
+    }
+
+    &-imgcontent {
+        position: relative;
+        margin-bottom: 30px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            height: 165px;
+            width: 165px;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            background-color: $white;
+        }
+    }
+
+    &-yellow {
+        .prod-imgcontent {
+            &::before {
+                content: '';
+                background-color: $yellow;
+            }
+        }
+    }
+
+    &-gray {
+        .prod-imgcontent {
+            &::before {
+                content: '';
+                background-color: $gray-darker;
+            }
+        }
+    }
+
+    &-blue {
+        .prod-imgcontent {
+            &::before {
+                content: '';
+                background-color: $blue;
+            }
+        }
+    }
+
+    &-img {
+        top: 0;
+        // float: right;
+        left: 30px;
+        position: relative;
+        max-height: 450px;
+    }
+
+    &-left, 
+    &-right {
+        margin: 90px 0 150px;
+    }
+
+    &-right {
+        text-align: right;
+
+        .prod-imgcontent {
+            &::before {
+                left: 0;
+            }
+        }
+
+        .prod-img {
+            left: 0;
+        }
+
+    }
+
+    &-title {
+        @extend %pagetitle;
+        margin-bottom: 60px;
+        font-size: $title;
+        font-weight: $bold;
+    }
+
+    &-text {
+        p {
+            @extend %text;
+        }
+    }
+
+    &-subtitle {
+        margin-bottom: 20px;
+        font-size: $big;
+        font-weight: $bold;
+    }
+
+    &-buttoncontent {
+        margin-top: 80px;
+    }
+
+    &-buttonabout {
+        background-color: $white;
+        @extend %btnproduct;
+        @extend %button;
+
+        &:hover {
+            background-color: darken($white, 5%);
+        }
+
+    }
+    
+    &-buttonbudget {
+        @extend %btnproduct;
+        @extend %button;
+    }
+}
+
+
+
+@media screen and (min-width: $phone-sm){
+    .prod {
+
+        &-imgcontent {
+            &::before {
+                height: 220px;
+                width: 220px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $tablet-md){
+    .prod {
+
+        margin: 120px 0;
+
+        &-imgcontent {
+            &::before {
+                height: 260px;
+                width: 260px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-lg){
+    .prod {
+        &-buttonabout, &-buttonbudget {
+            width: 220px;
+        }
+        &-imgcontent {
+            &::before {
+                height: 400px;
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-xl){
+
+    .prod {
+        &-imgcontent {
+            &::before {
+                height: 400px;
+                width: 400px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: $desktop-xxl){
+    .prod {
+
+        &-left, &-right {
+            margin-top: 130px;
+        }
+
+        &-imgcontent {
+            &::before {
+                height: 550px;
+                width: 550px;
+            }
+        }
+    }
+}

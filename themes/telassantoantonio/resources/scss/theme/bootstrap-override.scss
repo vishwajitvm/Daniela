@@ -1,0 +1,101 @@
+
+$grid-breakpoints: ();
+
+$grid-breakpoints: map-merge(
+    (
+        xxl: 1600px
+    ),
+    $grid-breakpoints
+);
+
+
+@media screen and (min-width: $desktop-xxl) {
+    .col-xxl {
+        &-1 {
+            flex: 0 0 8.33333333%;
+            max-width: 8.33333333%;
+        }
+        &-2 {
+            flex: 0 0 16.66666667%;
+            max-width: 16.66666667%;
+        }
+        &-3 {
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        &-4 {
+            flex: 0 0 33.33333333%;
+            max-width: 33.33333333%;
+        }
+        &-5 {
+            flex: 0 0 41.66666667%;
+            max-width: 41.66666667%;
+        }
+        &-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        &-7 {
+            flex: 0 0 58.33333333%;
+            max-width: 58.33333333%;
+        }
+        &-8 {
+            flex: 0 0 66.66666667%;
+            max-width: 66.66666667%;
+        }
+        &-9 {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+        &-10 {
+            flex: 0 0 83.33333333;
+            max-width: 83.33333333;
+        }
+        &-11 {
+            flex: 0 0 91.66666667%;
+            max-width: 91.66666667%;
+        }
+        &-12 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .offset-xxl {
+        &-1 {
+            margin-left: 8.33333333%;
+        }
+        &-2 {
+            margin-left: 16.66666667%;
+        }
+        &-3 {
+            margin-left: 25%;
+        }
+        &-4 {
+            margin-left: 33.33333333%;
+        }
+        &-5 {
+            margin-left: 41.66666667%;
+        }
+        &-6 {
+            margin-left: 50%;
+        }
+        &-7 {
+            margin-left: 58.33333333%;
+        }
+        &-8 {
+            margin-left: 66.66666667%;
+        }
+        &-9 {
+            margin-left: 75%;
+        }
+        &-10 {
+            margin-left: 83.33333333;
+        }
+        &-11 {
+            margin-left: 91.66666667%;
+        }
+        &-12 {
+            margin-left: 100%;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+title = "Home"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[Agent]
+==
+{% if Agent.isMobile() %}
+    {% partial 'home/banner_mobile' %}
+{% else %}
+    {% partial 'home/banner' %}
+{% endif %}
+{% partial 'home/history' %}
+{% partial 'home/products' %}
+{% partial 'home/news' %}`

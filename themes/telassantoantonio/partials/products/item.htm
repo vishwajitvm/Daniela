@@ -1,0 +1,45 @@
+[builderList]
+modelClass = "TelasSantoAntonio\Product\Models\Product"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "product-single"
+detailsKeyColumn = "slug"
+detailsUrlParameter = "slug"
+pageNumber = "{{ :page }}"
+
+[siteSearchInclude]
+
+==
+{% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+{% component 'siteSearchInclude' %}
+<div class="prod">
+    <div class="container">
+        <div class="row prod-area">
+            <div class="col-12">
+                <h1 class="prod-pagename">Produtos</h1>
+            </div>            
+
+            {% for record in records %}
+
+                {% if record.type == true %}
+
+                    {% partial 'products/left' record=record %}
+
+                {% else %}
+
+                    {% partial 'products/right' record=record %}
+
+                {% endif %}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</div>

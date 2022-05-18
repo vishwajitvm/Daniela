@@ -1,0 +1,199 @@
+.menu {
+
+    opacity: 0;
+    background-color: $blue;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 30%;
+    width: 100%;
+    transition: all .15s ease-out;
+
+    &-content {
+        padding-top: 30px;
+    }
+
+    &-overflow {
+        overflow: hidden;
+    }
+
+    &-active {
+        opacity: 1;
+        z-index: 2;
+        top: 0;
+    }
+
+    &-box {
+        position: relative;
+        width: 100%;
+        line-height: 0;
+    }
+
+    &-label {
+        position: absolute;
+        top: 23px;
+        left: 15px;
+        font-size: 16px;
+        color: $white;
+        opacity: 0.6;
+        font-weight: $normal;
+        transform-origin: 0 0;
+        transition: all .2s ease;
+    }
+
+    input {
+        -webkit-appearance: none;
+        width: 100%;
+        border: 0;
+        font-family: inherit;
+        padding: 12px 10px;
+        height: 48px;
+        font-size: 16px;
+        font-weight: $light;
+        background: darken($blue, 15%);
+        border-radius: 0;
+        color: $white;
+        transition: all .15s ease;
+    
+        &:not(:placeholder-shown) + span{
+            color: $white;
+            transform: translate(-5px, -15px) scale(.65);
+        }
+    
+        &:focus {
+            background: darken($blue, 15%);
+            outline: none;
+            +span {
+                color: $white;
+                opacity: 0.6;
+                transform: translate(-5px, -15px) scale(.65);
+            }
+        }
+    }
+
+    &-iconcontainer {
+        text-align: right;
+    }
+
+    &-icon {
+        border: none;
+        padding: 20px;
+        position: relative;
+        -webkit-appearance: none;
+        background-color: $blue;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 20px;
+            width: 50%;
+            background-image: linear-gradient($white 0%, $white 10%, $blue 10%, $blue 45%, $white 45%, $white 50%, $white 55%, $blue 55%, $blue 90%, $white 90%, $white 100%);
+        }
+    }
+
+    &-search {
+        top: 8px;
+        right: 5px;
+        border: none;
+        position: absolute;
+        background-color: transparent;
+    }
+
+    &-iconsearch {
+        padding: 5px;
+    }
+
+    &-closeicon {
+        &::before {
+            width: auto;
+            height: auto;
+            background-image: none;
+            content: url("/themes/telassantoantonio/assets/images/closeicon.svg");
+        }
+    }
+
+    &-linkcontent {
+        top: 40%;
+        position: absolute;
+        transform: translateY(-50%);
+    }
+
+    &-link {
+        width: 49%;
+        display: inline-block;
+        color: $white;
+        font-size: $normal;
+        font-weight: $bold;
+        padding: 10px 0;
+        text-decoration: none;
+        transition: 0.3s;
+        
+        &:hover, &:focus {
+            transition: 0.3s;
+            color: darken($white, 15%);
+            outline: none;
+            text-decoration: none;
+        }
+    }
+
+    &-bottom {
+        bottom: 0;
+        padding: 15px 0;
+        position: absolute;
+        border-top: 1px solid white;
+    }
+
+    &-coltext {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    &-textcontent {
+        display: inline-block;
+    }
+
+    &-text {
+        color: $white;
+        font-size: 14px;
+        text-align: left;
+        line-height: 1.4;
+    }
+
+    &-socialcontent {
+        top: -60px;
+        position: absolute;
+        text-align: left;
+        display: none;
+    }
+
+    &-socialink {
+        &:nth-of-type(2){
+            margin: 0 20px;
+        }
+    }
+
+}
+
+@media screen and (min-width: $tablet-md){
+    .menu {
+        &-link {
+            display: block;
+            width: 100%;
+            font-size: $title;
+        }
+        &-text, &-socialcontent {
+            text-align: right;
+            font-size: 16px;
+        }
+        &-coltext {
+            flex-direction: row;
+        }
+        &-linkcontent {
+            top: 50%;
+        }
+    }
+}

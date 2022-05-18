@@ -1,0 +1,36 @@
+<form data-action="contactForm">
+    <div class="row">
+        <div class="col-12">
+            <label for="name" class="form-box">
+                <input name="name" type="text" id="name" placeholder="&nbsp;" required>
+                <span class="form-label">Nome*</span>
+                <span class="form-border"></span>
+            </label>
+        </div>
+        <div class="col-md-4">
+            <label for="phone" class="form-box">
+                <input name="phone" type="text" id="phone" placeholder="&nbsp;" required>
+                <span class="form-label">Telefone*</span>
+                <span class="form-border"></span>
+            </label>
+        </div>
+        <div class="col-md-8">
+            <label for="mail" class="form-box">
+                <input name="email" type="email" id="mail" placeholder="&nbsp;" required>
+                <span class="form-label">E-mail*</span>
+                <span class="form-border"></span>
+            </label>
+        </div>
+        <div class="col-12">
+            <label for="message" class="form-box">
+                <textarea name="content" id="message" placeholder="&nbsp;"></textarea>
+                <span class="form-label">Mensagem</span>
+                <span class="form-border"></span>
+            </label>
+        </div>
+        <div class="col-md-3 offset-md-9 form-buttonarea">
+            <i class="form-refreshicon fas fa-sync-alt fa-spin float-right mr-3 mr-md-2"></i>
+            <button class="form-button" data-action="submit-ajax" type="submit">Enviar</button>
+        </div>
+    </div>
+</form>

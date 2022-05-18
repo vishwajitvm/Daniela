@@ -1,0 +1,75 @@
+1652872580a:1:{s:17:"products/item.htm";a:7:{s:8:"fileName";s:17:"products/item.htm";s:7:"content";s:1203:"[builderList]
+modelClass = "TelasSantoAntonio\Product\Models\Product"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "product-single"
+detailsKeyColumn = "slug"
+detailsUrlParameter = "slug"
+pageNumber = "{{ :page }}"
+
+[siteSearchInclude]
+
+==
+{% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+{% component 'siteSearchInclude' %}
+<div class="prod">
+    <div class="container">
+        <div class="row prod-area">
+            <div class="col-12">
+                <h1 class="prod-pagename">Produtos</h1>
+            </div>            
+
+            {% for record in records %}
+
+                {% if record.type == true %}
+
+                    {% partial 'products/left' record=record %}
+
+                {% else %}
+
+                    {% partial 'products/right' record=record %}
+
+                {% endif %}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1652422544;s:6:"markup";s:893:"{% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+{% component 'siteSearchInclude' %}
+<div class="prod">
+    <div class="container">
+        <div class="row prod-area">
+            <div class="col-12">
+                <h1 class="prod-pagename">Produtos</h1>
+            </div>            
+
+            {% for record in records %}
+
+                {% if record.type == true %}
+
+                    {% partial 'products/left' record=record %}
+
+                {% else %}
+
+                    {% partial 'products/right' record=record %}
+
+                {% endif %}
+
+            {% endfor %}
+
+        </div>
+    </div>
+</div>";s:4:"code";N;s:11:"builderList";a:9:{s:10:"modelClass";s:40:"TelasSantoAntonio\Product\Models\Product";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:14:"product-single";s:16:"detailsKeyColumn";s:4:"slug";s:19:"detailsUrlParameter";s:4:"slug";s:10:"pageNumber";s:11:"{{ :page }}";}s:17:"siteSearchInclude";a:0:{}}}

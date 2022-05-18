@@ -1,0 +1,219 @@
+1652872568a:1:{s:15:"site/footer.htm";a:5:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:5850:"<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 footer-logocontent">
+                <a href="{{ 'home'|page }}">
+                    <img class="footer-logo" src="{{ 'assets/images/logo.svg'|theme }}" alt="Logo">
+                </a>
+            </div>
+            <div class="col-md-8 col-lg-7 col-xl-6">
+                <div class="row">
+                    <div class="links-produtos col-sm-4 my-4 my-md-0">
+                        <ul class="footer-listcontent">
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'product'|page }}">Produtos</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/alambrados') }}">Telas para Alambrado</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/telas-hexagonais-para-mangueirao') }}">Telas para Mangueirão</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/telas-para-avicultura') }}">Telas para Avicultura</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/telas-artisticas') }}">Telas Artísticas</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/tutor-para-orquidea') }}">Tutor para Orquídea</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/arame-revestido-em-pvc') }}">Arames em PVC</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/produtos-agropecuarios') }}">Produtos Agropecuários</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 my-4 my-md-0">
+                        <ul class="footer-listcontent">
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'about'|page }}">Quem somos</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link footer-history" href="/quem-somos#historia" data-hash="#historia">Nossa história</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link footer-mission" href="/quem-somos#missao" data-hash="#missao">Nossos valores</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 my-4 my-md-0">
+                        <ul class="footer-listcontent">
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'contact'|page }}">Contato</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'budget'|page }}">Orçamento</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'contact'|page }}">Fale conosco</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6">
+                <div class="footer-sharecontent">
+                    <a class="footer-sharelink" href="javascript:;">
+                        <img class="footer-shareicon" src="{{ 'assets/images/facebook-white.svg'|theme }}" alt="Facebook">
+                    </a>
+                    <a class="footer-sharelink" href="javascript:;">
+                        <img class="footer-shareicon" src="{{ 'assets/images/linkedin-white.svg'|theme }}" alt="LinkedIn">
+                    </a>
+                    <a class="footer-sharelink" href="javascript:;">
+                        <img class="footer-shareicon" src="{{ 'assets/images/instagram-white.svg'|theme }}" alt="Instagram">
+                    </a>
+                </div>
+
+                <div class="footer-addresscontent">
+                    <p class="footer-addresstitle">Endereço</p>
+                    <p class="footer-address">
+                        Rua Maria do Bonsucesso Proença de Moraes, 202<br>
+                        Vila Progresso - CEP: 18.214-570<br>
+                        Itapetininga-SP
+                    </p>
+                </div>
+
+                <div class="footer-addresscontent">
+                    <p class="footer-addresstitle">Telefones</p>
+                    <p class="footer-address">
+                        <a href="tel:+551532734079" class="footer-telnumber">15 3273-4079</a><br>
+                        <a href="tel:+551532732130" class="footer-telnumber">15 3273-2130</a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copycontainer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="footer-copy">® {{now|date("Y")}} - Telas Santo Antonio</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1652422544;s:6:"markup";s:5850:"<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 footer-logocontent">
+                <a href="{{ 'home'|page }}">
+                    <img class="footer-logo" src="{{ 'assets/images/logo.svg'|theme }}" alt="Logo">
+                </a>
+            </div>
+            <div class="col-md-8 col-lg-7 col-xl-6">
+                <div class="row">
+                    <div class="links-produtos col-sm-4 my-4 my-md-0">
+                        <ul class="footer-listcontent">
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'product'|page }}">Produtos</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/alambrados') }}">Telas para Alambrado</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/telas-hexagonais-para-mangueirao') }}">Telas para Mangueirão</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/telas-para-avicultura') }}">Telas para Avicultura</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/telas-artisticas') }}">Telas Artísticas</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/tutor-para-orquidea') }}">Tutor para Orquídea</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/arame-revestido-em-pvc') }}">Arames em PVC</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ url('/produtos/produtos-agropecuarios') }}">Produtos Agropecuários</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 my-4 my-md-0">
+                        <ul class="footer-listcontent">
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'about'|page }}">Quem somos</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link footer-history" href="/quem-somos#historia" data-hash="#historia">Nossa história</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link footer-mission" href="/quem-somos#missao" data-hash="#missao">Nossos valores</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 my-4 my-md-0">
+                        <ul class="footer-listcontent">
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'contact'|page }}">Contato</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'budget'|page }}">Orçamento</a>
+                            </li>
+                            <li class="footer-listitem">
+                                <a class="footer-link" href="{{ 'contact'|page }}">Fale conosco</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-5 col-xl-6">
+                <div class="footer-sharecontent">
+                    <a class="footer-sharelink" href="javascript:;">
+                        <img class="footer-shareicon" src="{{ 'assets/images/facebook-white.svg'|theme }}" alt="Facebook">
+                    </a>
+                    <a class="footer-sharelink" href="javascript:;">
+                        <img class="footer-shareicon" src="{{ 'assets/images/linkedin-white.svg'|theme }}" alt="LinkedIn">
+                    </a>
+                    <a class="footer-sharelink" href="javascript:;">
+                        <img class="footer-shareicon" src="{{ 'assets/images/instagram-white.svg'|theme }}" alt="Instagram">
+                    </a>
+                </div>
+
+                <div class="footer-addresscontent">
+                    <p class="footer-addresstitle">Endereço</p>
+                    <p class="footer-address">
+                        Rua Maria do Bonsucesso Proença de Moraes, 202<br>
+                        Vila Progresso - CEP: 18.214-570<br>
+                        Itapetininga-SP
+                    </p>
+                </div>
+
+                <div class="footer-addresscontent">
+                    <p class="footer-addresstitle">Telefones</p>
+                    <p class="footer-address">
+                        <a href="tel:+551532734079" class="footer-telnumber">15 3273-4079</a><br>
+                        <a href="tel:+551532732130" class="footer-telnumber">15 3273-2130</a>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-copycontainer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="footer-copy">® {{now|date("Y")}} - Telas Santo Antonio</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

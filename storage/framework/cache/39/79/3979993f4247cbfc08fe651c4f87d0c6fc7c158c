@@ -1,0 +1,6 @@
+1652421709a:1:{s:8:"news.htm";a:8:{s:8:"fileName";s:8:"news.htm";s:7:"content";s:89:"title = "Novidades"
+url = "/novidades"
+layout = "default"
+==
+
+{% partial 'news/single' %}";s:5:"mtime";i:1647284215;s:6:"markup";s:27:"{% partial 'news/single' %}";s:4:"code";N;s:5:"title";s:9:"Novidades";s:3:"url";s:10:"/novidades";s:6:"layout";s:7:"default";}}

@@ -1,0 +1,10 @@
+name: Product
+form: $/telassantoantonio/product/models/product/fields.yaml
+modelClass: TelasSantoAntonio\Product\Models\Product
+defaultRedirect: telassantoantonio/product/product
+create:
+    redirect: 'telassantoantonio/product/product/update/:id'
+    redirectClose: telassantoantonio/product/product
+update:
+    redirect: telassantoantonio/product/product
+    redirectClose: telassantoantonio/product/product

@@ -1,0 +1,17 @@
+.bannermobile {
+
+    background-image: url(/themes/telassantoantonio/assets/images/home/gray.jpg);
+    min-height: 100vh;
+    margin-top: -71px;
+    overflow: hidden;
+    padding-top: 100px;
+
+    &-img {
+        z-index: 1;
+    }
+
+    &-textcontent {
+        z-index: 2;
+        padding: 40px 15px;
+    }
+}

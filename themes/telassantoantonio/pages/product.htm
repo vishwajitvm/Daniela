@@ -1,0 +1,17 @@
+title = "Produtos"
+url = "/produtos"
+layout = "default"
+is_hidden = 0
+
+[builderList]
+modelClass = "TelasSantoAntonio\Product\Models\Product"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "product-single"
+detailsKeyColumn = "slug"
+detailsUrlParameter = "slug"
+pageNumber = "{{ :page }}"
+==
+{% partial 'products/item' %}

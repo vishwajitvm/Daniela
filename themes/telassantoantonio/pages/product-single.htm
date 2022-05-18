@@ -1,0 +1,13 @@
+title = "Produtos Single"
+url = "/produtos/:slug"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "TelasSantoAntonio\Product\Models\Product"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "name"
+notFoundMessage = "Record not found"
+==
+{% partial 'product-single/item' %}

@@ -1,0 +1,26 @@
+.homehistory {
+
+    min-height: 50vh;
+    padding: 60px 0;
+    @extend %flexcenter;
+
+    &-title {
+        font-size: $big;
+        color: $black-text;
+        margin-bottom: 60px;
+    }
+
+    &-subtitle {
+        font-size: $normal;
+        color: $black-text;
+        font-weight: $light;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width: $desktop-lg){
+    .homehistory {
+        min-height: 100vh;
+        padding: 120px 0;
+    }
+}

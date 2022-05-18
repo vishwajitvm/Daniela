@@ -1,0 +1,33 @@
+columns:
+    title:
+        label: 'Primeiro Título'
+        type: text
+        searchable: true
+        invisible: true
+        sortable: true
+    content:
+        label: 'Primeiro Conteúdo'
+        type: text
+        searchable: true
+        invisible: true
+        sortable: true
+    box_color:
+        label: 'Caixa de cor'
+        type: text
+        searchable: true
+        invisible: true
+        sortable: true
+    type:
+        label: Indentação
+        type: text
+        searchable: true
+        invisible: true
+        sortable: true
+    name:
+        label: 'Nome do produto'
+        type: text
+        searchable: true
+        sortable: true
+    id:
+        label: Código
+        type: number

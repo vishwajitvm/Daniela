@@ -1,0 +1,121 @@
+.footer {
+
+    padding-top: 90px;
+    background-color: $blue;
+
+    &-logocontent {
+        margin-bottom: 30px;
+    }
+
+    .links-produtos {
+        padding: 0;
+    }
+
+    &-listcontent {
+        padding: 0;
+    }
+    
+    &-listitem {
+        margin: 5px 0;
+        list-style: none;
+
+        &:nth-of-type(1){
+            margin-bottom: 15px
+        }
+    }
+    &-link {
+        color: $white;
+        padding: 10px 0;
+        text-decoration: none;
+        font-weight: $light;
+        font-size: 16px;
+        transition: 0.3s;
+
+        &:focus {
+            outline: 0;
+            text-decoration: none;
+            color: $white;
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: darken($white, 25%);
+            transition: 0.3s;
+        }
+
+    }
+    &-sharecontent {
+        margin: 30px 0;
+        text-align: left;
+        display: none;
+    }
+    &-sharelink {
+
+        margin: 0 15px;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &:last-of-type{
+            margin-right: 0;
+        }
+
+    }
+
+    &-addresscontent {
+        margin: 45px 0;
+        text-align: left;
+    }
+    &-addresstitle, &-address, &-telnumber {
+        color: $white;
+        font-size: 16px;
+        font-weight: $light;
+    }
+    &-addresstitle {
+        margin-bottom: 15px;
+    }
+    &-copycontainer {
+        border-top: 1px solid $white;
+        background-color: $blue;
+        padding: 15px 0;
+    }
+    &-copy {
+        margin: 0;
+        color: $white;
+        font-size: $small;
+    }
+
+    &-telnumber {
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: $phone-sm){
+    
+}
+
+@media screen and (min-width: $tablet-md){
+    .footer {
+        &-addresscontent, &-sharecontent {
+            text-align: right;
+        }
+
+        &-sharecontent {
+            margin: 0 0 30px;
+        }
+
+    }
+}
+
+@media screen and (min-width: $desktop-lg){
+
+}
+
+@media screen and (min-width: $desktop-xl){
+
+}
+
+@media screen and (min-width: $desktop-xxl){
+
+}

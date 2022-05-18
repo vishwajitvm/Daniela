@@ -1,0 +1,40 @@
+1652421709a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:627:"title = "Contato"
+url = "/contato"
+layout = "default"
+is_hidden = 0
+
+[ContactForm]
+==
+<div class="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+
+                <h1 class="form-title">Em que podemos ajudar?</h1>
+                <h2 class="form-subtitle">
+                    Seja para solicitar um orçamento ou esclarecer dúvidas sobre nossos produtos. <br>
+                    O seu contato é muito importante para nós!
+                </h2>
+
+               {% component 'ContactForm' %}    
+                
+            </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1647284215;s:6:"markup";s:541:"<div class="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+
+                <h1 class="form-title">Em que podemos ajudar?</h1>
+                <h2 class="form-subtitle">
+                    Seja para solicitar um orçamento ou esclarecer dúvidas sobre nossos produtos. <br>
+                    O seu contato é muito importante para nós!
+                </h2>
+
+               {% component 'ContactForm' %}    
+                
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:7:"Contato";s:3:"url";s:8:"/contato";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"ContactForm";a:0:{}}}
