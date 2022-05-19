@@ -44,9 +44,9 @@ class __TwigTemplate_08a465f2357a73cb3cee1f9538ba778ae2afafe1d0237ba20c8736d7073
         // line 5
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("home");
         echo "\">
-                    <img class=\"header-logo img-fluid\" src=\"";
+                    <img class=\"\" src=\"";
         // line 6
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.svg");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/TSA_LogoBlue.png");
         echo "\" alt=\"Telas Santo Antonio\">
                 </a>
             </div>
@@ -102,7 +102,7 @@ class __TwigTemplate_08a465f2357a73cb3cee1f9538ba778ae2afafe1d0237ba20c8736d7073
         <div class=\"row\">
             <div class=\"col-10 col-md-3\">
                 <a href=\"{{ 'home'|page }}\">
-                    <img class=\"header-logo img-fluid\" src=\"{{ 'assets/images/logo.svg'|theme }}\" alt=\"Telas Santo Antonio\">
+                    <img class=\"\" src=\"{{ 'assets/images/TSA_LogoBlue.png'|theme }}\" alt=\"Telas Santo Antonio\">
                 </a>
             </div>
             <div class=\"col-md-8 header-linkcontainer d-none d-md-flex\">

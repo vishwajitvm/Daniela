@@ -45,10 +45,10 @@ class __TwigTemplate_ee3ea6757d09b39c741ad063851046bd7a9a8d9f74d501f194d40708e9f
                     <div data-animation-in=\"fadeInLeft\" data-animation-out=\"animate-out fadeOutLeft\" class=\"col-7 banner-textindex banner-fadeLeft\">
                         <div class=\"banner-textcontent\">
                             <h2 class=\"banner-title\">
-                                No campo ou na cidade nossos produtos garantem a sua tranquilidade.
+                                No campo ou na cidade a TSA tem A Força da Estrutura em telas e alambrados.
                             </h2>
                             <h3 class=\"banner-subtitle\">
-                                Estamos sempre inovando para oferecer soluções inteligentes para as mais diversas necessidades, confeccionamos telas sob medida de acordo com o seu projeto.
+                                Todo lugar precisa de proteção e segurança, seja em seu sítio, criação de animais, condomínio ou mesmo na quadra onde as crianças estão brincando.
                             </h3>
                             <a class=\"banner-button\" href=\"";
         // line 15
@@ -59,7 +59,7 @@ class __TwigTemplate_ee3ea6757d09b39c741ad063851046bd7a9a8d9f74d501f194d40708e9f
                     <div data-animation-in=\"fadeInRight\" data-animation-out=\"animate-out fadeOutRight\" class=\"col-5 banner-fadeRight\">
                         <img class=\"banner-img img-fluid\" src=\"";
         // line 19
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/home/banner1.jpg");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/home/TSA_Banner_1.png");
         echo "\" alt=\"Banner\">
                     </div>
                 </div>
@@ -70,10 +70,10 @@ class __TwigTemplate_ee3ea6757d09b39c741ad063851046bd7a9a8d9f74d501f194d40708e9f
                     <div data-animation-in=\"fadeInLeft\" data-animation-out=\"animate-out fadeOutLeft\" class=\"col-7 banner-textindex\">
                         <div class=\"banner-textcontent\">
                             <h2 class=\"banner-title\">
-                                Condições especiais para o seu negócio.
+                                TSA - A Força da Estrutura em telas e alambrados.
                             </h2>
                             <h3 class=\"banner-subtitle\">
-                                Oferecemos produtos com durabilidade e qualidade comprovada que podem ser utilizados para as mais diversas aplicações.
+                                É preciso pensar nos detalhes para ficarmos tranquilos em relação àqueles que amamos e criamos. Busque telas que são fortes, com uma estrutura inigualável, que protege a tudo e a todos.
                             </h3>
                             <a class=\"banner-button\" href=\"";
         // line 34
@@ -84,7 +84,7 @@ class __TwigTemplate_ee3ea6757d09b39c741ad063851046bd7a9a8d9f74d501f194d40708e9f
                     <div data-animation-in=\"fadeInRight\" data-animation-out=\"animate-out fadeOutRight\" class=\"col-5\">
                         <img class=\"banner-img img-fluid\" src=\"";
         // line 38
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/home/banner2-sm.png");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/home/TSA_Banner_2.png");
         echo "\" alt=\"Banner\">
                     </div>
                 </div>
@@ -121,16 +121,16 @@ class __TwigTemplate_ee3ea6757d09b39c741ad063851046bd7a9a8d9f74d501f194d40708e9f
                     <div data-animation-in=\"fadeInLeft\" data-animation-out=\"animate-out fadeOutLeft\" class=\"col-7 banner-textindex banner-fadeLeft\">
                         <div class=\"banner-textcontent\">
                             <h2 class=\"banner-title\">
-                                No campo ou na cidade nossos produtos garantem a sua tranquilidade.
+                                No campo ou na cidade a TSA tem A Força da Estrutura em telas e alambrados.
                             </h2>
                             <h3 class=\"banner-subtitle\">
-                                Estamos sempre inovando para oferecer soluções inteligentes para as mais diversas necessidades, confeccionamos telas sob medida de acordo com o seu projeto.
+                                Todo lugar precisa de proteção e segurança, seja em seu sítio, criação de animais, condomínio ou mesmo na quadra onde as crianças estão brincando.
                             </h3>
                             <a class=\"banner-button\" href=\"{{ 'budget'|page }}\">Peça o seu orçamento</a>
                         </div>
                     </div>
                     <div data-animation-in=\"fadeInRight\" data-animation-out=\"animate-out fadeOutRight\" class=\"col-5 banner-fadeRight\">
-                        <img class=\"banner-img img-fluid\" src=\"{{ 'assets/images/home/banner1.jpg'|theme }}\" alt=\"Banner\">
+                        <img class=\"banner-img img-fluid\" src=\"{{ 'assets/images/home/TSA_Banner_1.png'|theme }}\" alt=\"Banner\">
                     </div>
                 </div>
             </div>
@@ -140,16 +140,16 @@ class __TwigTemplate_ee3ea6757d09b39c741ad063851046bd7a9a8d9f74d501f194d40708e9f
                     <div data-animation-in=\"fadeInLeft\" data-animation-out=\"animate-out fadeOutLeft\" class=\"col-7 banner-textindex\">
                         <div class=\"banner-textcontent\">
                             <h2 class=\"banner-title\">
-                                Condições especiais para o seu negócio.
+                                TSA - A Força da Estrutura em telas e alambrados.
                             </h2>
                             <h3 class=\"banner-subtitle\">
-                                Oferecemos produtos com durabilidade e qualidade comprovada que podem ser utilizados para as mais diversas aplicações.
+                                É preciso pensar nos detalhes para ficarmos tranquilos em relação àqueles que amamos e criamos. Busque telas que são fortes, com uma estrutura inigualável, que protege a tudo e a todos.
                             </h3>
                             <a class=\"banner-button\" href=\"{{ 'budget'|page }}\">Peça o seu orçamento</a>
                         </div>
                     </div>
                     <div data-animation-in=\"fadeInRight\" data-animation-out=\"animate-out fadeOutRight\" class=\"col-5\">
-                        <img class=\"banner-img img-fluid\" src=\"{{ 'assets/images/home/banner2-sm.png'|theme }}\" alt=\"Banner\">
+                        <img class=\"banner-img img-fluid\" src=\"{{ 'assets/images/home/TSA_Banner_2.png'|theme }}\" alt=\"Banner\">
                     </div>
                 </div>
             </div>

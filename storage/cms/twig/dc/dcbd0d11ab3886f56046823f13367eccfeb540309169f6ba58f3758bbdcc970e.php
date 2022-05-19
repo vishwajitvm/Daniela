@@ -118,21 +118,30 @@ class __TwigTemplate_100cbf2bf4b8817baed0182c8f710ee2a811ab2474deefc9aee7f18f6b4
         // line 34
         echo "        </footer>
 
+        <div class=\"whatsapp-btn\">
+            <style>
+                 #box{ width:100px;   height: 80px;  position: fixed;right: 15px; bottom: 30px; text-align:center;   }
+                 #box i{ font-size:50px; color:green;  margin-top:10px;  }
+            </style>
+                 <div id=\"box\"><i class=\"fa-brands fa-whatsapp-square\"></i></div>
+                 <script src=\"https://kit.fontawesome.com/1c9aba089e.js\" crossorigin=\"anonymous\"></script>
+        </div>
+
         <!-- Scripts -->
         <script src=\"";
-        // line 37
+        // line 46
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/jquery.js");
         echo "\"></script>
         <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.1.3/circle-progress.min.js\"></script>
         <script src=\"";
-        // line 39
+        // line 48
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/bootstrap.js");
         echo "\"></script>
         <script src=\"";
-        // line 40
+        // line 49
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/javascript/app.js");
         echo "?v=";
-        echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, true, 40), "getConfigValue", [0 => "version"], "method", false, false, true, 40), 40, $this->source), "html", null, true);
+        echo twig_escape_filter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, true, 49), "getConfigValue", [0 => "version"], "method", false, false, true, 49), 49, $this->source), "html", null, true);
         echo "\"></script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -145,7 +154,7 @@ class __TwigTemplate_100cbf2bf4b8817baed0182c8f710ee2a811ab2474deefc9aee7f18f6b4
         </script>
         
         ";
-        // line 51
+        // line 60
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -156,11 +165,11 @@ class __TwigTemplate_100cbf2bf4b8817baed0182c8f710ee2a811ab2474deefc9aee7f18f6b4
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 52
+        // line 61
         echo "        ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 53
+        // line 62
         echo "    </body>
 </html>";
     }
@@ -177,7 +186,7 @@ class __TwigTemplate_100cbf2bf4b8817baed0182c8f710ee2a811ab2474deefc9aee7f18f6b4
 
     public function getDebugInfo()
     {
-        return array (  164 => 53,  160 => 52,  149 => 51,  133 => 40,  129 => 39,  124 => 37,  119 => 34,  115 => 33,  110 => 30,  108 => 29,  103 => 26,  99 => 25,  94 => 22,  90 => 21,  84 => 17,  81 => 16,  75 => 15,  69 => 14,  64 => 12,  60 => 11,  53 => 7,  49 => 6,  45 => 5,  39 => 1,);
+        return array (  173 => 62,  169 => 61,  158 => 60,  142 => 49,  138 => 48,  133 => 46,  119 => 34,  115 => 33,  110 => 30,  108 => 29,  103 => 26,  99 => 25,  94 => 22,  90 => 21,  84 => 17,  81 => 16,  75 => 15,  69 => 14,  64 => 12,  60 => 11,  53 => 7,  49 => 6,  45 => 5,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -217,6 +226,15 @@ class __TwigTemplate_100cbf2bf4b8817baed0182c8f710ee2a811ab2474deefc9aee7f18f6b4
             {% partial 'site/footer' %}
         </footer>
 
+        <div class=\"whatsapp-btn\">
+            <style>
+                 #box{ width:100px;   height: 80px;  position: fixed;right: 15px; bottom: 30px; text-align:center;   }
+                 #box i{ font-size:50px; color:green;  margin-top:10px;  }
+            </style>
+                 <div id=\"box\"><i class=\"fa-brands fa-whatsapp-square\"></i></div>
+                 <script src=\"https://kit.fontawesome.com/1c9aba089e.js\" crossorigin=\"anonymous\"></script>
+        </div>
+
         <!-- Scripts -->
         <script src=\"{{ 'assets/vendor/jquery.js'|theme }}\"></script>
         <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.1.3/circle-progress.min.js\"></script>
@@ -240,7 +258,7 @@ class __TwigTemplate_100cbf2bf4b8817baed0182c8f710ee2a811ab2474deefc9aee7f18f6b4
     
     public function checkSecurity()
     {
-        static $tags = array("styles" => 16, "partial" => 21, "page" => 29, "framework" => 51, "scripts" => 52);
+        static $tags = array("styles" => 16, "partial" => 21, "page" => 29, "framework" => 60, "scripts" => 61);
         static $filters = array("escape" => 5, "theme" => 11);
         static $functions = array();
 

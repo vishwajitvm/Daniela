@@ -1,9 +1,9 @@
-1652872568a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:991:"<nav class="header">
+1652957990a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:978:"<nav class="header">
     <div class="container">
         <div class="row">
             <div class="col-10 col-md-3">
                 <a href="{{ 'home'|page }}">
-                    <img class="header-logo img-fluid" src="{{ 'assets/images/logo.svg'|theme }}" alt="Telas Santo Antonio">
+                    <img class="" src="{{ 'assets/images/TSA_LogoBlue.png'|theme }}" alt="Telas Santo Antonio">
                 </a>
             </div>
             <div class="col-md-8 header-linkcontainer d-none d-md-flex">
@@ -22,12 +22,12 @@
             </div>
         </div>
     </div>
-</nav>";s:5:"mtime";i:1652422544;s:6:"markup";s:991:"<nav class="header">
+</nav>";s:5:"mtime";i:1652946231;s:6:"markup";s:978:"<nav class="header">
     <div class="container">
         <div class="row">
             <div class="col-10 col-md-3">
                 <a href="{{ 'home'|page }}">
-                    <img class="header-logo img-fluid" src="{{ 'assets/images/logo.svg'|theme }}" alt="Telas Santo Antonio">
+                    <img class="" src="{{ 'assets/images/TSA_LogoBlue.png'|theme }}" alt="Telas Santo Antonio">
                 </a>
             </div>
             <div class="col-md-8 header-linkcontainer d-none d-md-flex">

@@ -1,0 +1,35 @@
+1652947407a:1:{s:44:"product-single/custom-fields/field_type5.htm";a:5:{s:8:"fileName";s:44:"product-single/custom-fields/field_type5.htm";s:7:"content";s:828:"<!-- Tipo 5 ( 3 Imagens com seus respectivos títulos ) -->
+
+<div class="col-12 prodsingle-type5">
+    <div class="row">
+        <div class="col-10 offset-1 col-md-3 offset-md-1 mb-5 mb-md-0">
+            <h2 class="prod-subtitle">{{ field.title_type5_left }}</h2>
+            <img src="{{ field.image_type5_left|media }}" class="img-fluid">
+        </div>
+        <div class="col-10 offset-1 col-md-3 my-5 my-md-0">
+            <h2 class="prod-subtitle">{{ field.title_type5_center }}</h2>
+            <img src="{{ field.image_type5_center|media }}" class="img-fluid">
+        </div>
+        <div class="col-10 offset-1 col-md-2 my-5 my-md-0">
+            <h2 class="prod-subtitle">{{ field.title_type5_right }}</h2>
+            <img src="{{ field.image_type5_right|media }}" class="img-fluid">
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1652422544;s:6:"markup";s:828:"<!-- Tipo 5 ( 3 Imagens com seus respectivos títulos ) -->
+
+<div class="col-12 prodsingle-type5">
+    <div class="row">
+        <div class="col-10 offset-1 col-md-3 offset-md-1 mb-5 mb-md-0">
+            <h2 class="prod-subtitle">{{ field.title_type5_left }}</h2>
+            <img src="{{ field.image_type5_left|media }}" class="img-fluid">
+        </div>
+        <div class="col-10 offset-1 col-md-3 my-5 my-md-0">
+            <h2 class="prod-subtitle">{{ field.title_type5_center }}</h2>
+            <img src="{{ field.image_type5_center|media }}" class="img-fluid">
+        </div>
+        <div class="col-10 offset-1 col-md-2 my-5 my-md-0">
+            <h2 class="prod-subtitle">{{ field.title_type5_right }}</h2>
+            <img src="{{ field.image_type5_right|media }}" class="img-fluid">
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

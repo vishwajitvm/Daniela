@@ -46,7 +46,7 @@ class __TwigTemplate_2892ea2959d168eba3c4cd048f2638767a5024d1d2f8fd3ca896db448f5
         echo "\">
                     <img class=\"menu-logo img-fluid\" src=\"";
         // line 6
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.svg");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/TSA_LogoGrey.png");
         echo "\" alt=\"Logo\">
                 </a>
             </div>
@@ -83,12 +83,16 @@ class __TwigTemplate_2892ea2959d168eba3c4cd048f2638767a5024d1d2f8fd3ca896db448f5
         // line 29
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("budget");
         echo "\">Orçamento</a>
-                <a class=\"menu-link\" href=\"";
+                <!-- <a class=\"menu-link\" href=\"";
         // line 30
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("about");
-        echo "\">Quem somos</a>
+        echo "\">Quem somos</a> -->
                 <a class=\"menu-link\" href=\"";
         // line 31
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("about");
+        echo "\">News </a>
+                <a class=\"menu-link\" href=\"";
+        // line 32
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("contact");
         echo "\">Contato</a>
             </div>
@@ -101,19 +105,19 @@ class __TwigTemplate_2892ea2959d168eba3c4cd048f2638767a5024d1d2f8fd3ca896db448f5
                 <div class=\"col-md-3 offset-md-9 col-lg-2 offset-lg-10 menu-socialcontent\">
                     <a class=\"menu-socialink\" href=\"javascript:;\">
                         <img src=\"";
-        // line 41
+        // line 42
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/facebook-white.svg");
         echo "\" alt=\"Facebook\">
                     </a>
                     <a class=\"menu-socialink\" href=\"javascript:;\">
                         <img src=\"";
-        // line 44
+        // line 45
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/linkedin-white.svg");
         echo "\" alt=\"LinkedIn\">
                     </a>
                     <a class=\"menu-socialink\" href=\"javascript:;\">
                         <img src=\"";
-        // line 47
+        // line 48
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/instagram-white.svg");
         echo "\" alt=\"Instagram\">
                     </a>
@@ -154,7 +158,7 @@ class __TwigTemplate_2892ea2959d168eba3c4cd048f2638767a5024d1d2f8fd3ca896db448f5
 
     public function getDebugInfo()
     {
-        return array (  117 => 47,  111 => 44,  105 => 41,  92 => 31,  88 => 30,  84 => 29,  80 => 28,  66 => 17,  56 => 10,  49 => 6,  45 => 5,  39 => 1,);
+        return array (  121 => 48,  115 => 45,  109 => 42,  96 => 32,  92 => 31,  88 => 30,  84 => 29,  80 => 28,  66 => 17,  56 => 10,  49 => 6,  45 => 5,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -164,7 +168,7 @@ class __TwigTemplate_2892ea2959d168eba3c4cd048f2638767a5024d1d2f8fd3ca896db448f5
         <div class=\"row menu-content\">
             <div class=\"col-10 col-md-5 col-lg-3 mb-5 mb-md-0 order-1\">
                 <a href=\"{{ 'home'|page }}\">
-                    <img class=\"menu-logo img-fluid\" src=\"{{ 'assets/images/logo.svg'|theme }}\" alt=\"Logo\">
+                    <img class=\"menu-logo img-fluid\" src=\"{{ 'assets/images/TSA_LogoGrey.png'|theme }}\" alt=\"Logo\">
                 </a>
             </div>
             <div class=\"col-md-4 offset-md-2 col-lg-3 offset-lg-5 order-3 order-md-2\">
@@ -188,7 +192,8 @@ class __TwigTemplate_2892ea2959d168eba3c4cd048f2638767a5024d1d2f8fd3ca896db448f5
             <div class=\"col-md-4 offset-md-1 menu-linkcontent\">
                 <a class=\"menu-link\" href=\"{{ 'product'|page }}\">Produtos</a>
                 <a class=\"menu-link\" href=\"{{ 'budget'|page }}\">Orçamento</a>
-                <a class=\"menu-link\" href=\"{{ 'about'|page }}\">Quem somos</a>
+                <!-- <a class=\"menu-link\" href=\"{{ 'about'|page }}\">Quem somos</a> -->
+                <a class=\"menu-link\" href=\"{{ 'about'|page }}\">News </a>
                 <a class=\"menu-link\" href=\"{{ 'contact'|page }}\">Contato</a>
             </div>
         </div>

@@ -42,9 +42,9 @@ class __TwigTemplate_5a522f9f0aefab77ef356f4b2cdcc2835ad32bebb2d3d11ec6db5440071
             <div data-aos=\"fade-zoom-in\" data-aos-easing=\"ease-in-back\" data-aos-delay=\"50\" data-aos-offset=\"0\" class=\"col-10 offset-1 col-md-8 offset-md-2\">
                 <h2 class=\"homehistory-title\">Telas Santo Antônio, compromisso com a qualidade.</h2>
                 <h3 class=\"homehistory-subtitle\">
-                    A Telas Santo Antônio atua há mais de 30 anos na fabricação de telas e alambrados, além da distribuição de arames e pregos para todo o Brasil.
-                    Sua fábrica está localizada na cidade de Itapetininga-SP, numa área de mais de 2.000m² onde são produzidos e armazenados seus produtos.
-                    Além de produzir, a Telas Santo Antônio realiza entregas para todo o Brasil através de sua Frota Própria.
+                    A TSA está no mercado de telas e alambrados desde 1985, além de distribuição de arames, gradil, concertinas e uma variedade de tipos de telas.
+                    A TSA surgiu de um sonho e através de muita força de vontade, transformou-se em realidade. Com a força da família surgiu a A Força da Estrutura, contando com o engajamento dos colaboradores, aliado aos investimentos em tecnologia e equipamentos, a empresa atingiu o crescimento e hoje, cumpre o propósito de levar até você, as melhores e diferentes malhas e telas do mercado.
+                    A Telas Santo Antonio está localizada em Itapetininga-SP em uma área de 2000 m2 na fabricação e comercialização de telas e alambrados.
                 </h3>
             </div>
         </div>
@@ -70,9 +70,9 @@ class __TwigTemplate_5a522f9f0aefab77ef356f4b2cdcc2835ad32bebb2d3d11ec6db5440071
             <div data-aos=\"fade-zoom-in\" data-aos-easing=\"ease-in-back\" data-aos-delay=\"50\" data-aos-offset=\"0\" class=\"col-10 offset-1 col-md-8 offset-md-2\">
                 <h2 class=\"homehistory-title\">Telas Santo Antônio, compromisso com a qualidade.</h2>
                 <h3 class=\"homehistory-subtitle\">
-                    A Telas Santo Antônio atua há mais de 30 anos na fabricação de telas e alambrados, além da distribuição de arames e pregos para todo o Brasil.
-                    Sua fábrica está localizada na cidade de Itapetininga-SP, numa área de mais de 2.000m² onde são produzidos e armazenados seus produtos.
-                    Além de produzir, a Telas Santo Antônio realiza entregas para todo o Brasil através de sua Frota Própria.
+                    A TSA está no mercado de telas e alambrados desde 1985, além de distribuição de arames, gradil, concertinas e uma variedade de tipos de telas.
+                    A TSA surgiu de um sonho e através de muita força de vontade, transformou-se em realidade. Com a força da família surgiu a A Força da Estrutura, contando com o engajamento dos colaboradores, aliado aos investimentos em tecnologia e equipamentos, a empresa atingiu o crescimento e hoje, cumpre o propósito de levar até você, as melhores e diferentes malhas e telas do mercado.
+                    A Telas Santo Antonio está localizada em Itapetininga-SP em uma área de 2000 m2 na fabricação e comercialização de telas e alambrados.
                 </h3>
             </div>
         </div>
