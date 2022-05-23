@@ -1,4 +1,4 @@
-1652957191a:1:{s:17:"products/item.htm";a:7:{s:8:"fileName";s:17:"products/item.htm";s:7:"content";s:1203:"[builderList]
+1653285533a:1:{s:17:"products/item.htm";a:7:{s:8:"fileName";s:17:"products/item.htm";s:7:"content";s:1203:"[builderList]
 modelClass = "TelasSantoAntonio\Product\Models\Product"
 scope = "-"
 scopeValue = "{{ :scope }}"

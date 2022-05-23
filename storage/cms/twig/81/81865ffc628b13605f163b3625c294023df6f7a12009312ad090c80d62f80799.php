@@ -41,18 +41,17 @@ class __TwigTemplate_2a5deb1a050d9483de9ecc56671a3759b9709f4d06be23cc61cf9795423
         <div class=\"row\">
             <div class=\"col-lg-8 offset-lg-2\">
 
-                <h1 class=\"form-title\">Qual é o seu projeto?</h1>
+                <h1 class=\"form-title\">Como podemos te ajudar?</h1>
                 <h2 class=\"form-subtitle\">
-                    Descreva a sua necessidade para que um de nossos consultores possa melhor atendê-lo. <br>
-                    O seu projeto é muito importante para nós!
+                    Descreva sua necessidade para que um de nossos consultores possa atendê-lo.
                 </h2>
 
                 ";
-        // line 12
+        // line 11
         $context['__cms_component_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("ContactForm"        , $context['__cms_component_params']        );
         unset($context['__cms_component_params']);
-        // line 13
+        // line 12
         echo "
             </div>
         </div>
@@ -72,7 +71,7 @@ class __TwigTemplate_2a5deb1a050d9483de9ecc56671a3759b9709f4d06be23cc61cf9795423
 
     public function getDebugInfo()
     {
-        return array (  56 => 13,  52 => 12,  39 => 1,);
+        return array (  55 => 12,  51 => 11,  39 => 1,);
     }
 
     public function getSourceContext()
@@ -82,10 +81,9 @@ class __TwigTemplate_2a5deb1a050d9483de9ecc56671a3759b9709f4d06be23cc61cf9795423
         <div class=\"row\">
             <div class=\"col-lg-8 offset-lg-2\">
 
-                <h1 class=\"form-title\">Qual é o seu projeto?</h1>
+                <h1 class=\"form-title\">Como podemos te ajudar?</h1>
                 <h2 class=\"form-subtitle\">
-                    Descreva a sua necessidade para que um de nossos consultores possa melhor atendê-lo. <br>
-                    O seu projeto é muito importante para nós!
+                    Descreva sua necessidade para que um de nossos consultores possa atendê-lo.
                 </h2>
 
                 {% component 'ContactForm' %}
@@ -98,7 +96,7 @@ class __TwigTemplate_2a5deb1a050d9483de9ecc56671a3759b9709f4d06be23cc61cf9795423
     
     public function checkSecurity()
     {
-        static $tags = array("component" => 12);
+        static $tags = array("component" => 11);
         static $filters = array();
         static $functions = array();
 
